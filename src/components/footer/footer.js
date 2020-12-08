@@ -1,10 +1,9 @@
 import React, { Fragment } from 'react';
-import "scss/main.scss"
+// import "scss/main.scss"
 import styled from 'styled-components';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../../utils/font-awesome';
-
 
 const FooterWrapper = styled.div`
 
@@ -104,6 +103,66 @@ a:hover, a:focus, .a:active {
 	white-space: nowrap;
 }
 
+
+//////////////////////////////////////////////////////////////////////////////////
+@media screen and (max-width: 1366px) {
+	.block-nav-work li a{padding:30px 56px;}
+}
+
+
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation: portrait) {
+	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
+	.right-content.col-md-9{width:75%;}
+	.col-md-2.left-content{width: 16.6667%;}
+	p.lead-intro{padding:0 45px;}
+}
+
+
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation: landscape) {
+	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}	
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px){
+	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
+	.container {position: relative;}
+	.main-header{margin:0;}
+	.main-header:after{bottom: 0;height: 1px;right: auto;width: 100%;top:auto;}
+	.right-content.col-md-9, .left-content.col-md-2{width:auto;padding-left: 15px !important;padding-right: 15px !important;}
+	.footer{position:absolute;top:-41px;z-index:10;right:0px;}
+	.footer .social{float:left;margin-left:0;}
+	.footer .social li{float: left; margin-left: 1px;}
+	.footer .copyright {float:left;margin-left:1px; -webkit-transform: none;transform: none;}
+	
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
+	.container {position: relative;}
+	.content{padding: 100px 40px;}
+	.footer{position:absolute;top:-41px;z-index:10;right:0px;}
+	.footer .social{float:left;margin-left:0;}
+	.footer .social li{float: left; margin-left: 1px;}
+	.footer .copyright {float:left;margin-left:1px; -webkit-transform: none;transform: none;}
+	.block-info .col-md-4:not(:last-child){margin-bottom:30px;}
+
+	
+}
+
+
+@media only screen and (max-width:479px) {
+	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
+	.container {position: relative;}
+	.content{padding: 100px 40px;}
+	.footer{position:absolute;top:-41px;z-index:10;right:0px;}
+	.footer .social{display:none;}
+	.footer .copyright {float:left;margin-left:1px; -webkit-transform: none;transform: none;}
 `;
 
 const Footer = () => {
@@ -111,10 +170,10 @@ const Footer = () => {
 	return (
 		<FooterWrapper>
 			<ul class="social" style={{ paddingInlineStart: `0px` }}>
-				<li><a href="https://www.facebook.com" target="_blank"><FontAwesomeIcon className="icon" icon={'user'}></FontAwesomeIcon></a></li>
-				<li><a href="https://www.twitter.com" target="_blank"><FontAwesomeIcon className="icon" icon={'user'}></FontAwesomeIcon></a></li>
-				<li><a href="https://www.google.com" target="_blank"><FontAwesomeIcon className="icon" icon={'user'}></FontAwesomeIcon></a></li>
-				<li><a href="https://www.linkedin.com" target="_blank"><FontAwesomeIcon className="icon" icon={'user'}></FontAwesomeIcon></a></li>
+				<li><a href="https://www.facebook.com" target="_blank"><FontAwesomeIcon className="icon" icon={'fan'}></FontAwesomeIcon></a></li>
+				<li><a href="https://www.twitter.com" target="_blank"><FontAwesomeIcon className="icon" icon={'fan'}></FontAwesomeIcon></a></li>
+				<li><a href="https://www.google.com" target="_blank"><FontAwesomeIcon className="icon" icon={'fan'}></FontAwesomeIcon></a></li>
+				<li><a href="https://www.linkedin.com" target="_blank"><FontAwesomeIcon className="icon" icon={'fan'}></FontAwesomeIcon></a></li>
 				<li><a className="copyright" href="https://www.pentafox.in" target="_blank">© Pentafox</a></li>
 			</ul>
 		</FooterWrapper>

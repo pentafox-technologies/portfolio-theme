@@ -12,7 +12,7 @@ const IndexPage = () => {
       <HomeWrapper>
         <div className="container" style={{ paddingTop: `150px`, paddingBottom: `150px` }}>
           <div className="row">
-            <div className="col-md-2">
+            <div className="col-md-2" style={{padding:`0px`}}>
               <Header></Header>
             </div>
             <div className="col-md-9">
@@ -30,7 +30,7 @@ const IndexPage = () => {
                   </div>
                   <div class="block-content mb-100">
                     <div class="row">
-                      <div class="col-md-12  ">
+                      <div class="col-md-12 ">
                         <div class="sub-title mb-40">
                           <h2 class="uppercase">About Me</h2>
                         </div>
@@ -60,7 +60,7 @@ const IndexPage = () => {
                               </ul>
                               <ul class="data right">
                                 <li>Madhuprasad</li>
-                                <li>1984.03.13 <span class="emph-1">(year/day/month)</span></li>
+                                <li>1984.13.03 <span class="emph-1">(year/day/month)</span></li>
                                 <li>Chennai</li>
                                 <li>Indian</li>
                                 <li>Married</li>
@@ -113,7 +113,7 @@ const IndexPage = () => {
                 </div>
               </section>
             </div>
-            <footer>
+            <footer className="footer">
               <div className="col-md-1 pd-l0">
                 <Footer></Footer>
               </div>

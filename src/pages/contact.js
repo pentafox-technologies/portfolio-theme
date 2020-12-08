@@ -2,9 +2,8 @@ import React from "react"
 import Footer from "../components/footer/footer";
 import Header from "../components/header/header";
 import { HomeWrapper } from "../components/home/home.css";
-
-
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import '../utils/font-awesome';;
 const IndexPage = () => {
 
 
@@ -71,7 +70,7 @@ const IndexPage = () => {
                             <div class="" style={{marginRight:`15px`}}> 
                               <div class="info" style={{padding:`15px`, minHeight:`250px`}}>
                                 <div class="ico mb-20">
-                                  <i class="icon-location-7"></i>
+                                  <i class=""><FontAwesomeIcon icon={'map-marker-alt'}></FontAwesomeIcon></i>
                                 </div>
                                 <h5 class="mb-20">Drop on in</h5>
                                 <p>
@@ -84,7 +83,7 @@ const IndexPage = () => {
                             <div class="" style={{marginRight:`15px`}}>
                               <div class="info" style={{padding:`15px`, minHeight:`250px`}}>
                                 <div class="ico mb-20">
-                                  <i class="icon-mobile-6"></i>
+                                  <i><FontAwesomeIcon icon={'mobile-alt'}></FontAwesomeIcon></i>
                                 </div>
                                 <h5 class="mb-20">Give me a call</h5>
                                 <p>
@@ -95,7 +94,7 @@ const IndexPage = () => {
                             <div class="">
                               <div class="info" style={{padding:`15px`, minHeight:`250px`}}>
                                 <div class="ico mb-20">
-                                  <i class="icon-paper-plane-3"></i>
+                                  <i class=""><FontAwesomeIcon icon={'paper-plane'}></FontAwesomeIcon></i>
                                 </div>
                                 <h5 class=" mb-20">Let's connect</h5>
                                 <p>
