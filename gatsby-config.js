@@ -1,7 +1,7 @@
 const siteConfig = require('./site-config');
 
 module.exports = {
-  pathPrefix: "suraaj-consultants",
+  pathPrefix: /pentafox/portfolio-theme,
   siteMetadata: {
     ...siteConfig
   },
