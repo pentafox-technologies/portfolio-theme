@@ -7,7 +7,6 @@ export const HeaderWrapper = styled.div`
 
 }
 .col-md-2.left-content {
-    width: 14.6667%;
     z-index: 10;
 }
 .pd-r0 {
