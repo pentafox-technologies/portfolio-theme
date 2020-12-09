@@ -65,7 +65,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "deploy": "gatsby build --prefix-paths && master -d public",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "ssr": "npm run build && npm run serve",
     "build:dir": "mkdirp ./public/icons/",
     "build:favicons": "node scripts/favicons",
