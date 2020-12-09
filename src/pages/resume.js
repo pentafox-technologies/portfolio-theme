@@ -22,7 +22,7 @@ const resumePage = () => {
                                                 <div class="col-md-12  ">
                                                     <div class="main-title">
                                                         <h1 class="mb-20">Resume</h1>
-                                                        <h5 class="uppercase">Curriculum Vita</h5>
+                                                        <h5 class="uppercase">Curriculum Vitae</h5>
                                                     </div>
                                                 </div>
                                             </div>

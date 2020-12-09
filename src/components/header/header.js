@@ -21,10 +21,10 @@ const Header = () => {
 					<nav id="main-nav" class="main-nav clearfix t-center uppercase tabbed">
 						<ul class="" style={{marginBottom:`2px`}}>
 							<li><a className="active" href="/"><FontAwesomeIcon className="icon" icon={'user'} />About me<span>who am i</span></a></li>
-							<li><a href="/resume"><FontAwesomeIcon className="icon" icon={'briefcase'} />Resume<span>curriculam</span></a></li>
-							<li><a href="/portfolio"><FontAwesomeIcon className="icon" icon={'camera'} />Portfolio<span>my works</span></a></li>
-							<li><a href="/blog"><FontAwesomeIcon className="icon" icon={'comments'} />Blog<span>My toughts</span></a></li>
-							<li><a href="/contact"><FontAwesomeIcon className="icon" icon={'phone-alt'} />Contact<span>Say hello</span></a></li>
+							<li><a className="active1" href="/resume"><FontAwesomeIcon className="icon" icon={'briefcase'} />Resume<span>curriculam</span></a></li>
+							<li><a className="active2" href="/portfolio"><FontAwesomeIcon className="icon" icon={'camera'} />Portfolio<span>my works</span></a></li>
+							<li><a className="active3" href="/blog"><FontAwesomeIcon className="icon" icon={'comments'} />Blog<span>My toughts</span></a></li>
+							<li><a className="active4" href="/contact"><FontAwesomeIcon className="icon" icon={'phone-alt'} />Contact<span>Say hello</span></a></li>
 						</ul>
 					</nav>
 				</div>
