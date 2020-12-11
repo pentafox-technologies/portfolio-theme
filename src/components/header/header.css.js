@@ -12,12 +12,7 @@ export const HeaderWrapper = styled.div`
 .pd-r0 {
     padding-right: 0 !important;
 }
-.icon {
-    font-size: 25px;
-    display: block;
-    margin-bottom: 10px;
-    margin-left:70px;
-}
+
 .main-header {
     position: relative;
     margin-left: 1px;
@@ -294,9 +289,13 @@ nav{
 	.right-content.col-md-9, .left-content.col-md-2{width:auto;padding-left: 15px !important;padding-right: 15px !important;}
 	.main-nav ul li{float:left; width:20%;font-size:14px;position:relative;margin-bottom:0;}
 	.main-nav ul li:after{content:""; background:#eaeaea;height:100%;top:0;left:0;position:absolute;width:1px;}
-	.main-nav ul li a{padding:20px 0; font-size: 0;}
+	.main-nav ul li a{padding:0px 0; font-size: 0;}
 	.main-nav ul li a span{display:none;}
-	.main-nav ul li a i{width:100%;position:absolute;margin-bottom:0;text-align:center;}
+	.main-nav ul li a i{
+		width:100%;
+		margin-bottom:0;
+		text-align:center;
+	}
 	.main-nav li a.active:after {-webkit-transform:rotate(90deg);transform:rotate(90deg);left: 50%; margin-left: -7px;right: auto;top: 102%;}
 	.main-nav.not-tabbed ul li{ width:50%;}
 	.main-title h1 {font-size: 45px;}
@@ -354,7 +353,10 @@ nav{
 	.right-content.col-md-9, .left-content.col-md-2{width:auto;padding-left: 15px !important;padding-right: 15px !important;}
 	.main-nav ul li{float:left; width:20%;font-size:14px;position:relative;margin-bottom:0;}
 	.main-nav ul li:after{content:""; background:#eaeaea;height:100%;top:0;left:0;position:absolute;width:1px;}
-	.main-nav ul li a{padding:20px 0; font-size: 0;}
+	.main-nav ul li a{
+		padding:25px 25px 25px 25px;
+		 font-size: 0;
+		}
 	.main-nav ul li a span{display:none;}
 	.main-nav ul li a i{width:100%;position:absolute;margin-bottom:0;text-align:center;}
 	.main-nav li a.active:after {-webkit-transform:rotate(90deg);transform:rotate(90deg);left: 50%; margin-left: -7px;right: auto;top: 102%;}

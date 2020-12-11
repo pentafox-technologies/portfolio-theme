@@ -13,6 +13,28 @@ font-family: "Roboto Slab","Helvetica","Arial",sans-serif;
   padding: 100px;
   position: relative;
 }
+.content:before {
+    background: #ffd42d;
+    content: "";
+    height: 18px;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.content:after{
+    content: "";
+    height: 18px;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    width:100%;
+	padding:18px 25px;
+	z-index:-1;
+	box-shadow: 0px 8px 25px -10px rgba(0,0,0,0.35), 0px 15px 0px -8px #ffd42d, 0px 15px 0px -7px #ffd42d, 0px 16px 25px -10px rgba(0,0,0,0.35), 0px 30px 0px -15px #ffd42d, 0px 30px 0px -14px #ffd42d;
+	
+}
+
 .col-md-9 , .col-md-12{
   padding:0px;
 }
